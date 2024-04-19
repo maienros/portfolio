@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+      </head>
+<body>
+  <div class="wrapper">
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <h3><i class="fa-solid fa-splotch"></i></h3>
+        </div>
+        <ul class="menu">
+          <li><a href="#">Acerca de mi</a></li>
+          <li><a href="#">Proyectos</a></li>
+          <li><a href="#">Contactos</a></li>
+        </ul>
+      </nav>
+    </header>
+  <div class="about">
+    <img class="rounded-lg" src="img/kkm.jpg" width="725">
+  <div class="about-info">
+  
+    <h2>Acerca de mi</h2><br>
+    <p> Mi nombre completo es Jessica Li Wu o tambien "李思思" (li si si). Puedo hablar ingles, español y cantones. De los tres lenguajes, manejo mejor el ingles. Tengo 17 años y me gusta pasar mi tiempo dibujando, jugando con mis amigos y viendo videos.</p>
+    <p> No tengo mucha experiencia con programacion y similar ya que solo habia recibido un clase basico de informatica en bachillerato, pero mi tema favorita de informatica era el diseño web donde experimentamos con lo mas basico de html.</p>
+  </div>
+  <figcaption class="mt-2 text-sm text-center text-gray-500 dark:text-gray-400">Arte creado por <a href="https://twitter.com/DarzHalaq/status/1621549273027579904">@DarzHalaq (clic)</a> en X (Twitter) </figcaption>
+</figure>
+</div>
+<br><br><br>
+<div class="proyectos">
+  <div class="proyectos-headings">
+    <h2> Proyectos</h2><br>
+    <div class="proyectos_imagen"><br><br>
+      <img class="rounded-lg" src="img/proj1.png" width="800">
+    </div>
+    <div class="proyectos_descripcion">
+        <p> Lastimosamente, perdi mis proyectos de bachillerato y solo tengo acceso a los proyectos hechas durante este laboratorio. Este fue el primer trabajo sencillo que nos pidieron.</p>
+        <br>
+        <a href="https://github.com/maienros/is/blob/main/testing.html"><i class="fa-brands fa-github" style="color: #6b705c;"></i></a>
+        </div>
+        <br>  
+        <br>
+
+        <img class="rounded-lg" src="img/proj2.png" width="800">
+    <div class="proyectos_descripcion2">
+        <p> El segundo trabajo del laboratorio que es similar al primero. </p>
+        <br>
+        <a href="https://github.com/maienros/is/tree/main/hw2"><i class="fa-brands fa-github" style="color: #6b705c;"></i></a>
+        </div>
+        <br>  
+        <br>
+
+        <img class="rounded-lg" src="img/proj3.png" width="800">
+    <div class="proyectos_descripcion2">
+        <p> Intente recrear una pagina html que hice en bachillerato pero esta es mucho mas simple y no incluye los audios que agregue al proyecto original. </p>
+        <br>
+        <a href="https://github.com/maienros/is/tree/main/test"><i class="fa-brands fa-github" style="color: #6b705c;"></i></a>
+        </div>
+        <br>  
+        <br>
+</div>
+</div>
+
+<div class="contactos">
+  <div class="contactos_heading">
+    <h2> Contactos</h2> <br>
+    <p>jessica.li@unah.hn</p>
+    <p>ma1enr0s.06@gmail.com</p>
+    <p> 9350-2778 </p><br>
+    <div class="contactos_link">
+      <button><a href="https://github.com/maienros"><i class="fa-brands fa-github" style="color: #6b705c;"></i></a></button>
+    </div>
+  </div>
+</div><br>
+<footer> Jessica Li Wu, 20241003666</footer>
+</body>
