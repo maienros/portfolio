@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    font-family:"Roboto Condensed", sans-serif; ;
+}
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f5ebe0;
+    color: #6b705c;
+}
+header {
+    background-color: #b7b7a4;
+}
+i {
+    font-size: 22px;
+}
+.logo h3 {
+    padding-left: 15px;
+}
+body {
+    background-color: #f5ebe0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 4mm;
+}
+.menu {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+
+}
+.menu a{
+    color: #6b705c;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100vw;
+    align-items: center;
+    padding: 20px;
+}
+
+.about-info h2 {
+    font-size: xx-large
+    
+}
+
+.proyectos-headings {
+    width: 100vw;
+    display: grid;
+    align-items: center;
+    padding-left: 20mm;
+}
+.proyectos_descripcion {
+    padding: 5mm;
+}
+.proyectos-headings h2 {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    background-color:#b7b7a4;
+    padding: 5mm;
+}
+.proyectos_descripcion2 {
+    padding: 5mm;
+}
+.contactos .contactos_link{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contactos_heading h2{
+    font-size: xx-large;
+    background-color:#b7b7a4;
+    padding: 5mm;
+    display: flex;
+    justify-content: center;
+}
+.contactos_heading p{
+    display: flex;
+    justify-content: center;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #b7b7a4;
+}
